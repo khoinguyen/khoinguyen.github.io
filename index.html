@@ -3,4 +3,12 @@ layout: default
 title:  "Simply Kay - Simply the best"
 date:   2014-12-05 17:00:00
 ---
-Something to share
+   
+        {% for post in site.posts %}
+        <div class="post">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <div class="post-time">{{ post.time | date_to_long_string}}</div>
+            <p>{{ post.excerpt }}</p>
+        </div>
+        {% endfor %}
+   
