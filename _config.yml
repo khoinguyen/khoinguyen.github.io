@@ -18,10 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Free Soul
+title: The Free Soul - Kartikeya Khoi Nguyen
 email: khoi.nqq@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The Free Soul
+  The Free Soul - Kartikeya Khoi Nguyen
+domain: khoinguyen.github.io
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://khoinguyen.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -30,7 +31,12 @@ github_username: khoinguyen
 # Build settings
 remote_theme: 'mmistakes/minimal-mistakes@4.24.0'
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
