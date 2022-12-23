@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Ta là ai?'
-date: 2022-12-23 8:45:00
+date: 2022-12-23
 categories: self-inquiry
 ---
 
